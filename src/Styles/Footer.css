@@ -1,0 +1,229 @@
+footer{
+    padding: 6vh;
+    background-color: rgb(65,65,65);
+    width: 95%;
+    margin: auto;
+    color: #fff;
+}
+footer .box-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 3vh 0;
+    margin: auto;
+}
+
+footer .box-footer h4{
+    padding: 3vh 0;
+}
+
+footer .box-footer .footer-box1{
+    width: 18vw;
+}
+
+footer .box-footer .flicker-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .box-footer .flicker-box .flbox{
+    background-color: #252525;
+    width: 4.2vm;
+    height: 4.2vm;
+    margin-bottom: 0.6vh;
+    transition: 100ms ease-in-out
+}
+ footer .box-footer .flicker-box .flbox:hover{
+     transform: scale(1.05);
+    transition: 100ms ease-in-out;
+    cursor: pointer;
+  
+ }
+.flbox img {
+
+width: 100%;
+transition: 600ms ease-in-out;
+
+}
+
+.footer-box1 h4{
+    
+    text-transform:uppercase;
+    
+}
+
+
+.footer-box1 p{
+color: #6f6f6f;
+    
+    }
+
+
+    .footer-box1 p:hover{
+        color:  #458ed3;
+        cursor:pointer;
+
+            
+            }
+
+footer .bottom-box {
+
+
+height:10vh;
+background-color: #343434;
+text-align: center;
+line-height: 10vh;
+color: #6f6f6f;
+position: relative;
+
+
+}
+
+
+footer .bottom-box .social-box {
+
+    width:80vw;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer .bottom-box .social-box p {
+
+text-transform: uppercase;
+
+}
+
+
+
+footer i {
+
+    font-size:2rem;
+    color: #252525;
+}
+
+
+footer i:hover {
+
+color:white;
+transition: 500ms ease-in-out;
+transform: scale(1.5);
+transform: rotate(30deg);
+cursor: pointer;
+
+
+}
+
+
+
+.social-container {
+
+
+display: flex;
+align-items: center;
+width:18vw;
+justify-content: space-between;
+
+
+}
+
+#up-icon {
+
+
+position: absolute;
+top: 1.5vh;
+right:10px;
+font-size: 4rem;
+
+}
+
+
+
+
+
+/* Tabs mit radio-Buttons */
+.tabbed figure { 
+    display: block; 
+    margin-left: 0; 
+    clear: both;
+    position: relative;
+ }
+ 
+ .tabbed > input,
+ .tabbed figure > div { display: none; }
+ 
+ .tabbed figure>div {
+   
+    padding: 0px;
+   width: 100%;
+   background: #fff;
+   color: #444;
+ }
+
+
+
+
+ #tab1:checked ~ figure .tab1,
+#tab2:checked ~ figure .tab2  { display: block; }
+
+
+nav label {
+    float: left;
+    padding: 15px 15px;
+    background: rgb(231, 231, 231);
+    color: rgb(173, 173, 173);
+    width:150px;
+    text-align: center;
+    box-shadow: 2px 0px 21px -8px rgba(0,0,0,0.75);
+
+ }
+ 
+ nav label:hover { background: rgb(199, 199, 199); }
+ nav label:active { 
+   box-shadow: 23px 0px 117px -34px rgba(0,0,0,0.57);
+    background: #ffffff;
+    width:150px;
+    text-align: center;
+ }
+ 
+ #tab1:checked ~ nav label[for="tab1"],
+ #tab2:checked ~ nav label[for="tab2"] {
+   background: white;
+   color: rgb(61, 61, 61);
+   position: relative;
+   border-bottom: none;
+   width:150px;
+   text-align: center;
+ }
+ 
+ #tab1:checked ~ nav label[for="tab1"]:after,
+ #tab2:checked ~ nav label[for="tab2"]:after {
+
+   content: "";
+   display: block;
+   position: absolute;
+   height: 2px;
+   width: 100%;
+   background: white;
+   left: 0;
+   bottom: -1px;
+   width:150px;
+   text-align: center;
+ }
+
+ .block {
+
+width:188px;
+height:49px;
+background-color:  #efefef;
+position: absolute;
+z-index: 1000;
+top:0;
+left:300px;
+
+
+ }
